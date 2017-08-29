@@ -12,8 +12,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-  
- .navbar {
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+     
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+
+   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       background-color: rgb(24, 97, 163);
@@ -37,18 +48,6 @@
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-  }
-
-  body {
-      font: 400 15px/1.8 Lato, sans-serif;
-      color: #777;
-     
-  }
-  h3, h4 {
-      margin: 10px 0 30px 0;
-      letter-spacing: 10px;      
-      font-size: 20px;
-      color: #111;
   }
   .container {
       padding: 80px 120px;
@@ -94,12 +93,13 @@
     }
   }
   .bg-1 {
-      background: rgb(255,179,1);
+      background: rgb(197, 194, 234);
       color: #777;
-      opacity: 0.9
+      
   }
   .bg-2{
-    background: rgb(30,159,180);
+    background: rgb(75, 94, 84);
+  
      color: #777;
      padding-top: 90px;
      padding-bottom: 40px;
@@ -169,19 +169,40 @@
 
 
   footer {
-      background-color: #05204c;
-      color: #f5f5f5;
-      padding: 32px;
+  background-color: rgb(24, 97, 163);
+      color: #f5f5f5 !important;
+      padding: 10px;
+opacity: 0.8;
      
   }
   .footer a {
-      color: #f5f5f5;
+
+   /* color: rgb(255,255,255) !important;*/
+/*background-color: #f5f5f5*/
   }
-  .footer a:hover {
-      color: #777;
-      text-decoration: none;
+ /* .footer a:hover {
+      color: #000000 !important;
+     
   }  
-  .form-control {
+*/
+  .footer a: focus {
+    color: #000000 !important;
+  }
+  /*.footer up-arrow{
+   color:  !important;
+  }*/
+.div row
+{
+
+}
+ /* span{
+   color: rgb(255,255,255) !important;
+  }
+  span:hover{
+   color:   #000000 !important;
+  }*/
+
+    .form-control {
       border-radius: 0;
   }
   .textarea {
@@ -421,7 +442,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 <footer class="text-center">
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
+  </a>
   <p>© 2016. Etronics Engineers. All Rights Reserved </p> 
 </footer>
 

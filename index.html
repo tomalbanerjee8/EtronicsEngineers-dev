@@ -104,14 +104,17 @@
   .bg-1 {
       background: rgb(197, 194, 234);
       color: #777;
+      opacity: 0.4
       
   }
   .bg-2{
-    background: rgb(75, 94, 84);
+    background: rgb(197, 194, 234);
   
      color: #777;
      padding-top: 90px;
      padding-bottom: 40px;
+     opacity: 0.4
+
 
   }
   }
@@ -247,6 +250,9 @@ opacity: 0.8;
     font-size: 20px;
 
 }
+what-we-do{
+
+}
 
   </style>
 
@@ -354,7 +360,7 @@ opacity: 0.8;
 <div id="Aboutus" class="container text-center">
   <h3><b>ABOUT US</b></b></h3>
   <!-- <p><em>We love music!</em></p> -->
-  <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists </p>
+  <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
   <br>
  
 </div>
@@ -362,7 +368,7 @@ opacity: 0.8;
 <!-- Container (what we do Section) -->
 <div id="What-we-do" class="bg-1">
   <div class="container">
-    <h3 class="text-center"><b>WHAT WE DO</b></h3>
+    <h3 class="What-we-do text-center"><b>WHAT WE DO</b></h3>
     <p class="text-center">ETRONICS ENGINEERS LLP is involved in OTHER BUSINESS ACTIVITIES</p>
     
   </div>
@@ -525,8 +531,47 @@ $(document).ready(function(){
     } // End if
   });
 })
+
+
 </script>
 
+<script type="application/ld+json">
+
+{
+"@context": "http://schema.org",
+"@type": "Organization",
+"name" : "ETRONICS ENGINEERS",
+"url": "https://tomalbanerjee8.github.io/EtronicsEngineers-dev/",
+"sameAs" : [
+"",
+"",
+"",
+""
+]
+}
+
+{
+"@context": "http://schema.org",
+"@type": "LocalBusiness",
+"name" : "ETRONICS ENGINEERS",
+"url": "https://tomalbanerjee8.github.io/EtronicsEngineers-dev/",
+"logo": "https://tomalbanerjee8.github.io/EtronicsEngineers-dev/logo1.jpg",
+"image": "https://tomalbanerjee8.github.io/EtronicsEngineers-dev/websitelogo.jpg",
+"description": "ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.",
+"telephone": "+91-8250990157",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Sliguri",
+"addressRegion": "West Bengal",
+"streetAddress": "48, Netaji Subash Bose Road, Word no: 35, P.o. Bhaktinagar, Siliguri, Dist: Jolpaiguri- 734007",
+"postalCode": "734007"
+},
+"openingHours": [
+"Mo-Fr 9.30-6.30"
+]
+}
+
+</script>
 
 
 </body>

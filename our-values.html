@@ -72,7 +72,8 @@
       border-color: transparent;
   }
   .container {
-      padding: 80px 120px;
+          padding: 6px 0px;
+              width: 100%;
   }
   .person {
       border: 10px solid transparent;
@@ -157,7 +158,10 @@
   }
  
 
-
+.breadcrumbs{
+      background-color: #0a0a6b;
+    padding-left: 72px;
+}
   
   
   .bg-1 {
@@ -441,13 +445,73 @@ h1{
     color: #fbff00;
 }
 
+
 element.style {
     top: 5px;
 }
 
+.breadcrumbs {
+    background-color: rgb(66,64,149);
+    padding-left: 72px;
+}
 
+a{
+color: white;
+
+}
+a:hover {
+    color: black;
+     text-decoration: none;
+}
+
+   .aboutus-content{position: absolute;
+   }
  
+ .inner-heading
+ {
+
+
+        text-align: center;
+
+ }
+.col-md-9{
+     padding-top: 76px;
+    padding-bottom: 76px;
+}
+ h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+     letter-spacing: 6px;
+    font-size: 23px;
+}
+
+.inner-right-heading{
+  text-align: center;
+}
+.col-md-3 {
+    width: 19%;
+    background-color: #969090;
+    left: 22px;
+    top: 28px;
+}
+
+.hvr-sweep-to-right:hover{
+  color: rgb(66,64,149);
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.inner-right-bar{
+  letter-spacing: 3.1px;
+}
+
   </style>
+}
 
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" >
@@ -464,7 +528,7 @@ element.style {
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage" class="active">HOME</a></li>
+        <li><a href="index.html" class="active">HOME</a></li>
 <!--         <li><a href="#Aboutus">ABOUT US</a></li> -->
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#aboutus">ABOUT US <span class="caret"></span></a>
@@ -500,213 +564,78 @@ element.style {
   </div>
 </nav>
 
- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-       <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li> 
-    <li data-target="#myCarousel" data-slide-to="3"></li> 
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-    <li data-target="#myCarousel" data-slide-to="5"></li> 
-     <!-- <li data-target="#myCarousel" data-slide-to="6"></li>
-    <li data-target="#myCarousel" data-slide-to="7"></li> --> 
-    
-    </ol> 
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-      <img class="img-responsive" src="pic1.jpg" alt="firstphoto" width="100%" height="700">
-        <div class="overlay"></div>
-        <div class="carousel-caption">   
-      
-      <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"> <a href="#Aboutus" style="text-decoration: none; color: white;
-          "> Learn More</button>
-      </div>
-      </div>
-      </div>
-    </div> 
-
-
-        
-
-      <div class="item">
-         <img class="img-responsive" src="pic5.jpg" alt="two" width="100%" height="700"> 
-         <div class="overlay"></div>
-        <div class="carousel-caption">   
-      
-      <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white;
-          ">  Learn More</button>
-      </div>
-      </div>
-     </div>
-
-    </div> 
-    
-       
-    
-      <!-- <div class="item">
-        <img class="img-responsive" src="pic6.jpg" alt="three" width="100%" height="700"> 
-        <div class="overlay"></div>
-        <div class="carousel-caption">   
-     
-      <div class="row">
-      
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>We are ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white; 
-          "> Learn More </button>
-      </div>
-    </div>  
-     </div>    
-</div> -->
-
-     <div class="item">
-      <img class="img-responsive" src="pic7.jpg" alt="three" width="100%" height="700"> 
-      <div class="overlay"></div>
-        <div class="carousel-caption">   
-       <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white; 
-          "> Learn More</button>
-      </div>
-    </div> 
-     </div>
-     </div>
-
-      <div class="item">
-      <img class="img-responsive" src="pic2.jpg" alt="three" width="100%" height="700"> 
-      <div class="overlay"></div>
-        <div class="carousel-caption">   
-      
-     <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white;
-          ">  Learn More</button>
-      </div>
-    </div> 
-    </div>
-    </div>
-
-      
-
-      <div class="item">
-      <img class="img-responsive" src="pic8.jpg" alt="three" width="100%" height="700"> 
-      <div class="overlay"></div>
-        <div class="carousel-caption">   
-     
-      <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white; 
-          ">  Learn More</button>
-      </div>
-    </div> 
-    </div>
-       </div>
-
-      <div class="item">
-      <img class="img-responsive" src="pic9.jpg" alt="three" width="100%" height="700"> 
-      <div class="overlay"></div>
-        <div class="carousel-caption">   
-      
-       <div class="row">
-      <!-- <div class="hero col-xs-8 col-xs-offset-2  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2"> -->
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white; 
-          ">  Learn More</button>
-      </div>
-    </div> 
-    </div>
-      </div>
-
-     <!--   <div class="item">
-      <img class="img-responsive" src="pic10.jpg" alt="three" width="100%" height="700"> 
-      <div class="overlay"></div>
-        <div class="carousel-caption">   
-     
-       <div class="row">
-      
-        <div class="hero col-xs-12  col-sm-12 col-md-12 col-lg-12 ">
-        <hgroup>
-            <h1>We are ETRONICS ENGINEERS LLP</h1>        
-            <span class="Castom-overlay">Where Technology Never Stops Moving</span>
-        </hgroup>
-        <button class="btn btn-hero btn-lg" role="button"><a href="#Aboutus" style="text-decoration: none; color: white; 
-        "> Learn More</button>
-      </div>
-    </div>  
-      </div> 
-    </div> -->
-
-    <!-- Left and right controls -->
-     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div> 
-</div>
  
   
- <!-- <div id="mywebpic">
-        <img src="logo.jpg" alt="logo" width="100%" height="700">
-        </div> -->
+ <div id="mywebpic">
+        <img src="ETRONICS ENGINEERS1.jpg" alt="logo" width="100%" height="600vh">
+        </div>
 
 
 
 <!-- Container (Aboutus Section) -->
-<div id="Aboutus" class="container text-center">
+
+<div class="mainbody-about container">
+ <!--Breadcrumbs S...--> 
+ <div>
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs-text"><a href="index.html">HOME <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="our-values.html"> ABOUT US <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="our-values.html"> OUR VALUES</a></div>
+            </div>
+        </div>
+</div>
+<!--Breadcrumbs E...--> 
+<!-- Left side S...-->
+
+            <section class="inner-heading">
+                <h1> <b>OUR VALUES</b></h1>    
+            </section>
+
+             <div class="col-md-9">
+
+ 
+<span >
+ <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
+
+ </span>
+
+             </div>
+<!-- Left side S...-->
+
+<div class="col-md-3">
+                <div class="inner-right-bar">                
+                    <section class="inner-right-heading">
+                        <h1><b>ABOUT US</b></h1>  
+                    </section>
+                   <ul>
+                       <a href="our-values.html"> <li class="hvr-sweep-to-right"> <b>Our Values</b></li></a>
+                       <!-- <a href="our-values.html"> <li class="hvr-sweep-to-right bar-active">Our Values</li></a> -->
+                       <a href="#"> <li class="hvr-sweep-to-right"><b>Board of Directors</b></li></a>
+                       <a href="#"> <li class="hvr-sweep-to-right"><b>Management</b></li></a>
+                       <!-- <a href="awards.html"> <li class="hvr-sweep-to-right">Awards & Certifications</li></a> -->
+                    </ul>  
+                </div>
+            </div>
+
+<!-- Right side E...-->         
+           
+
+
+
+
+
+<!-- <!-- <!-- <div id="Aboutus" class="container text-center">
 <span class="Aboutus">
  <h3><b>ABOUT US</b></b></h3>
 </span>
  
 </span class="aboutus-content">
   <!-- <p><em>We love music!</em></p> -->
-  <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
+ <!--  <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
   <br>
  </span>
-</div>
+</div> -->
 
-<!-- Container (what we do Section) -->
+<!-- Container (what we do Section)
 <div id="What-we-do" class="bg-1">
   <div class="container">
     <h3 class="What-we-do text-center"><b>WHAT WE DO</b></h3>
@@ -714,12 +643,12 @@ element.style {
     
   </div>
 <!-- Container (Horking hours) -->
-  <div id="Working-hours" class="bg-2">
+ <!--  <div id="Working-hours" class="bg-2">
     <h3 class="text-center"> <b>WORKING HOURS</b> </h3>
     <p class="text-center">ETRONICS ENGINEERS LLP is involved in OTHER BUSINESS ACTIVITIES</p>
     <br>
-  </div>
-
+  </div> 
+ -->
   
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -771,12 +700,12 @@ element.style {
 <p>Email: etronics.engrs@gmail.com</p> 
 </div>
 
-</div>
+</div> 
 
 
 
  
-	   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+	  <!--  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 <p class="text-center"><em><b>Contact us and we'll get back to you within 24 hours</b></em> </p> 
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group" align="center">
@@ -796,7 +725,7 @@ element.style {
     </div>
   </div>
   <h3 class="text-center"><b>THANK YOU PLEASE VISIT AGAIN</b></h3>  
-  </div>
+  </div> -->
 
 <!-- <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12  col-lg-8"> -->
@@ -806,13 +735,13 @@ element.style {
 </div>
  -->
 <script>
-function myMap() {
+/*function myMap() {
 var myCenter = new google.maps.LatLng(26.732311,  88.410286);
 var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 var marker = new google.maps.Marker({position:myCenter});
 marker.setMap(map);
-}
+}*/
 
 
 
@@ -830,8 +759,8 @@ marker.setMap(map);
 
       }*/
 </script>
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASt-duay0qQ9AaMOK2YH1i9tkTZPeAYxc&callback=myMap"
-  type="text/javascript"></script>
+ <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASt-duay0qQ9AaMOK2YH1i9tkTZPeAYxc&callback=myMap"
+  type="text/javascript"></script> -->
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp

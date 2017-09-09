@@ -6,7 +6,7 @@
   <title>Etronics Engineers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -30,7 +30,7 @@
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
-      background-color:#969090;/*#c1c1c1;*/
+      background-color:rgb(197, 194, 234);/*#c1c1c1;*/
       border: 0;
       font-size: 16px !important;
       letter-spacing: 1px;
@@ -62,11 +62,12 @@
      color: #fff !important;
   }
   .navbar-nav li a:hover {
-      color: black !important;
+
+      color: rgb(255,244,1) !important;
   }
   .navbar-nav li.active a {
       color: #fff !important;
-      background-color: rgb(66,62,149); !important; 
+      background-color: rgb(66,62,149) !important; 
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -223,10 +224,10 @@
       color: #ffffff;
   }
   #googleMap {
-      width: 100%;
-      height: 400px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(10%);
+      
+         height: 210px
+      
+    
   }  
  
   .open .dropdown-toggle {
@@ -234,12 +235,12 @@
       background-color: rgb(66,62,149) !important;
   }
   .dropdown-menu li a {
-    background-color:#969090; 
+    background-color:rgb(197, 194, 234); 
       color:  white !important;
   }
   .dropdown-menu li a:hover {
       background-color: rgb(66,62,149)!important;
-      color: black!important;
+      color: rgb(255,244,1)!important;
   }
 
   .glyphicon {
@@ -253,10 +254,10 @@
 }
 
   footer {
-  background-color:#969090; 
+  background-color:rgb(66,64,149 ); 
       color: #f5f5f5 !important;
       padding: 10px;
-opacity: 1.0;
+opacity: 0.7;
      
   }
   .footer a {
@@ -451,7 +452,8 @@ element.style {
 }
 
 .breadcrumbs {
-    background-color: rgb(66,64,149);
+    background-color:rgb(197, 194, 234);
+    opacity: 0.7
     padding-left: 72px;
 }
 
@@ -460,8 +462,8 @@ color: white;
 
 }
 a:hover {
-    color: black;
-     text-decoration: none;
+    color: rgb(255,244,1);
+     text-decoration: none !important;
 }
 
    .aboutus-content{position: absolute;
@@ -482,7 +484,7 @@ a:hover {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: black;
+    color: white;
      letter-spacing: 6px;
     font-size: 23px;
 }
@@ -492,13 +494,17 @@ a:hover {
 }
 .col-md-3 {
     width: 19%;
-    background-color: #969090;
+    background-color: rgb(197, 194, 234);
     left: 22px;
     top: 28px;
 }
 
+.hvr-sweep-to-right{
+  color: black;
+}
+
 .hvr-sweep-to-right:hover{
-  color: rgb(66,64,149);
+  color: rgb(255,244,1);
 }
 
 ul {
@@ -510,7 +516,87 @@ ul {
   letter-spacing: 3.1px;
 }
 
+.name{
+  color: black;
+}
+
+#footer-bg{
+      padding: 0px 48px;
+   /* background-color: #969090;*/
+   background-color: rgb(197, 194, 234);
+    opacity: 0.9;
+        padding-left: 85px!important;
+    padding-right: 109px!important;
+}
+
+.link{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 2.1; 
+    font-size: 21px;
+    font: :sans-serif!important  ;
+}
+
+.link1{
+color: black;
+text-decoration: none !important;
+
+}
+.link2{
+color: white;
+text-decoration: none !important;
+}
+
+a:focus, a:hover {
+   color:  rgb(255,244,1);
+}
+
+.fa {
+  padding: 10px;
+  font-size: 18px;
+  width: 37px;
+  text-align: center;
+  text-decoration: none !important;
+ /* margin: 5px 2px;*/
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998 ;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+b, strong {
+    font-weight: 700;
+    letter-spacing: initial !important;
+}
+
   </style>
+}
 }
 
 </head>
@@ -579,7 +665,7 @@ ul {
  <div>
         <div class="breadcrumbs">
             <div class="container">
-                <div class="breadcrumbs-text"><a href="index.html">HOME <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="our-values.html"> ABOUT US <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="our-values.html"> OUR VALUES</a></div>
+                <div class="breadcrumbs-text"><a href="index.html"><b>HOME</b> <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="our-values.html"><b>ABOUT US</b> <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="our-values.html"><b>OUR VALUES</b></a></div>
             </div>
         </div>
 </div>
@@ -587,7 +673,7 @@ ul {
 <!-- Left side S...-->
 
             <section class="inner-heading">
-                <h1> <b>OUR VALUES</b></h1>    
+                <h1> <b class="name">OUR VALUES</b></h1>    
             </section>
 
              <div class="col-md-9">
@@ -705,27 +791,7 @@ ul {
 
 
  
-	  <!--  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<p class="text-center"><em><b>Contact us and we'll get back to you within 24 hours</b></em> </p> 
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group" align="center">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group " align="center">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group" align="center">
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit" >Send</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <h3 class="text-center"><b>THANK YOU PLEASE VISIT AGAIN</b></h3>  
-  </div> -->
+
 
 <!-- <div class="row">
 <div class="col-xs-12 col-sm-12 col-md-12  col-lg-8"> -->
@@ -734,37 +800,75 @@ ul {
 <!-- </div>
 </div>
  -->
-<script>
-/*function myMap() {
-var myCenter = new google.maps.LatLng(26.732311,  88.410286);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}*/
-
-
-
-/*var map;
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-
-      }*/
-</script>
  <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASt-duay0qQ9AaMOK2YH1i9tkTZPeAYxc&callback=myMap"
   type="text/javascript"></script> -->
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
+<div id="footer-bg">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-2    col-lg-2  ">
+                    <h1 class="link"><a class="link2" href="about.html"><b>ABOUT US</b></a></h1>
+                    <p><a class="link1" href="our-values.html">Our Values</a></p>
+                    <p><a class="link1" href="#">Board of Directors</a></p>
+                    <p><a class="link1" href="#">Management</a></p>
+                    
+            
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <h1 class="link"><a class="link2" href="#"><b>SECTOR</b></a></h1>
+                        <p><a class="link1" href="#">Communication</a></p>
+                        <p><a class="link1" href="#">Signalling</a></p>
+                        <p><a class="link1" href="#">Gps</a></p>
+                        <p><a class="link1" href="#">Solar Panel</a></p>
+                        <p><a class="link1" href="#">Military Engineering</a></p>
+                        <p><a class="link1" href="#">Web Development</a></p>
+                   
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                 <h1 class="link"><a class="link2" href="#"><b>SERVICE</b></a></h1>
+                        <p><a class="link1" href="#">Supply</a></p>
+                        <p><a class="link1" href="#">Installation & Commissioning</a></p>
+                        <p><a class="link1" href="#">Operation & Maintenace</a></p>
+                        
+                </div>
+                            
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                  <h1 class="link"><a class="link2" href="#"><b>CAREERS</b> </a></h1> 
+    
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    
+                    <h1 class="link"><a class="link2" href="#"><b>CONTACT</b></a></h1>
+                      
+                </div>
+                
+                 <div class="col-xs-12 col-sm-12 col-md-2   col-lg-2  ">
+                    
+                      <h1 class="link1 link text-center"  ><b>Join With Us</b> </h1>
+                          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                          <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                          <a href="https://www.google.com/" class="fa fa-google"></a>
+                          <!-- <a href="#" class="fa fa-linkedin"></a> -->
+                          <a href="https://youtube.com/" class="fa fa-youtube"></a>
+
+                           
+                               <!--   <a href="https://www.facebook.com/" target="_blank" class=" fa fa-facebook link1" aria-hidden="true"></a>
+                                <a  href="https://twitter.com/"  target="_blank" class=" fa fa-twitter link1" aria-hidden="true"></a>
+                                <a  href="https://www.linkedin.com/"  target="_blank" class=" fa fa-linkedin link1" aria-hidden="true"></a>
+                                <a href="https://www.youtube.com/"  target="_blank" class=" fa fa-youtube link1" aria-hidden="true"></a>
+                         -->                                
+
+                </div>
+                 
+                
+            </div>
+
+    </div>
 
 <!-- Footer -->
 <footer class="text-center">

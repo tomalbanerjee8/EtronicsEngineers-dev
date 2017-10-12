@@ -74,7 +74,7 @@
   }
   .container {
           padding: 6px 0px;
-              width: 100%;
+             
   }
   .person {
       border: 10px solid transparent;
@@ -225,7 +225,7 @@
   }
   #googleMap {
       
-         height: 210px
+         height: 50px
       
     
   }  
@@ -477,8 +477,9 @@ a:hover {
 
  }
 .col-md-9{
-     padding-top: 76px;
-    padding-bottom: 76px;
+     padding-top: 20px;
+    padding-bottom: 20px;
+        border-right: 2px solid black;
 }
  h1 {
     font-family: inherit;
@@ -494,8 +495,8 @@ a:hover {
 }
 .col-md-3 {
     width: 19%;
-    background-color: rgb(197, 194, 234);
-    left: 22px;
+    /*background-color: rgb(197, 194, 234);*/
+    left: 20px;
     top: 28px;
 }
 
@@ -504,16 +505,16 @@ a:hover {
 }
 
 .hvr-sweep-to-right:hover{
-  color: rgb(255,244,1);
+  color: rgb(255,244,1)!important;
 }
-
+*/
 ul {
     margin-top: 0;
     margin-bottom: 25px;
 }
 
 .inner-right-bar{
-  letter-spacing: 3.1px;
+  letter-spacing: 1.1px;
 }
 
 .name{
@@ -594,9 +595,130 @@ b, strong {
     letter-spacing: initial !important;
 }
 
+/*sub values*/
+
+.rows {
+    display: flex;
+    margin: 5px 0px;
+}
+.row-img-two-v {
+    display: none;
+}
+.row-p {
+    width: 75%;
+    display: inherit;
+}
+.rows .row-p p {
+    display: table-cell;
+    vertical-align: middle;
+    margin-top: auto;
+}
+.mainbody-about p strong {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #29599c;
+}
+.mainbody-about p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 26px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+        margin-left: 57px;
+    text-align: justify;
+}
+
+.row-img-v{
+  width: 12%;
+}
+
+.row-img-one-v {
+    width: 12%;
+    margin: 0px 20px 0 10px;
+}
+
+ .img-responsive{
+      display: block;
+    max-width: 100%;
+    height: auto;
+ } 
+
+ col-md-9{
+  border-right: 0px dashed #c8c8c8 !important;
+}
+ 
+/* Rightbox option*/
+
+.col-md-3 {
+    width: 25%;
+}
+.inner-right-bar {
+    margin: auto;
+}
+.inner-right-heading {
+    display: block;
+    height: 26px;
+    margin: 19px 0px;
+    border-left: 3px solid #c3c3c3;
+}
+.inner-right-heading h1 {
+    font-size: 24px;
+    display: inline-block;
+    color:  black!important;
+    padding-left: 10px;
+    text-transform: uppercase;
+    line-height: 0px;
+    font-weight: 300;
+}
+.inner-right-heading {
+    display: block;
+    height: 39px;
+    margin: 10px 0px;
+    border-left: 3px solid #059be2;
+}
+
+ul {
+    margin: 0;
+    text-decoration: none;
+}
+
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+}
+.inner-right-bar li {
+    margin: auto;
+    text-align: left;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #370bbb;
+    padding: 10px 10px;
+    width: 100%;
+    background: #f3f3f3;
+    border-left: 5px solid #7dc24d;
+    border-bottom: 3px solid #fff;
+}
+
+.hvr-sweep-to-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+  }
+
+  .bar-active {
+    background: #7dc24d !important;
+    text-decoration: none;
+    color: #fff !important;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+}
   </style>
-}
-}
+
 
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" >
@@ -659,12 +781,12 @@ b, strong {
 
 <!-- Container (Aboutus Section) -->
 
-<div class="mainbody-about container">
+<div class="mainbody-about container"><!-- <!-- <!-- <!-- 
  <!--Breadcrumbs S...--> 
  <div>
         <div class="breadcrumbs">
             <div class="container">
-                <div class="breadcrumbs-text"><a href="index.html"><b>HOME</b> <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="our-values.html"><b>ABOUT US</b> <span> > </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="our-values.html"><b>OUR VALUES</b></a></div>
+                <div class="breadcrumbs-text"><a href="index.html"><b>HOME</b> <span>  </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i><a href="our-values.html"><b>ABOUT US</b> <span>  </span></a> <i class="fa fa-angle-right" aria-hidden="true"></i> <a href="our-values.html"><b>OUR VALUES</b></a></div>
             </div>
         </div>
 </div>
@@ -675,92 +797,139 @@ b, strong {
                 <h1> <b class="name">OUR VALUES</b></h1>    
             </section>
 
-             <div class="col-md-9">
+              <div class="col-md-9">
+          
+               <div class="rows">
+             <!-- only for mobile view S...-->
+                    
+                    <div class="row-img-two-v">
+                         <img src="cr.jpg" class="img-responsive" alt="Image">
+                    </div>
 
- 
-<span >
- <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
+                    <!-- only for mobile view E...-->
+                     
+                    <div class="row-p">
+                        <p><strong>CUSTOMER RELATIONSHIP– </strong>Customer relationship is the heart of every business and more so at Centum. Customers are not just one of the stakeholders for our business but our reason to do business maintaining delightful Customer Relationship is our forte.</p>
+                    </div> 
+                    
+                    <div class="row-img-one-v">
+                        <img src="cr.jpg" class="img-responsive" alt="Image">
+                    </div>
+                    
+                </div> 
 
- </span>
+                 <div class="rows">
+                    <div class="row-img-v">
+                        <img src="cr1.jpg" class="img-responsive" alt="Image">
+                    </div>
 
-             </div>
-<!-- Left side S...-->
+                    <div class="row-p">
+                        <p><strong>TEAMWORK– </strong> At Centum, Teamwork is coming together of a group of highly motivated people who are committed to achieving organization goal and willing to be held accountable at the same time for their actions and results.</p>
+                    </div> 
+                </div>
+          
+          <div class="rows">
+                    
+                    <!-- only for mobile view S...-->
+                    
+                    <div class="row-img-two-v">
+                        <img src="cr2.jpg" class="img-responsive" alt="Image">
+                    </div>
+                    
+                    <!-- only for mobile view E...-->
+                    <div class="row-p">
+                        <p><strong>OPENNESS & TRUST– </strong>The first and foremost aspect of openness is just. Centum values its employees and believes in a work environment encompassing Openness & Trust, in all of its communications and actions.</p>
+                    </div> 
+                    
+                    <div class="row-img-one-v">
+                        <img src="cr2.jpg" class="img-responsive" alt="Image">
+                    </div>
+                    
+                </div>
 
-<div class="col-md-3">
+                  <div class="rows">
+                    <div class="row-img-v">
+                        <img src="cr2.jpg" class="img-responsive" alt="Image">
+                    </div>
+
+                    <div class="row-p">
+                        <p><strong>INTEGRITY– </strong>At Centum, Integrity is the foundation of our reputation. We follow highest ethical and moral standards, and display honesty in all our actions, methods and measures.</p>
+                    </div> 
+                </div>
+                
+                <div class="rows">
+                    
+                     <!-- only for mobile view S...-->
+                    
+                    <div class="row-img-two-v">
+                         <img src="cr.jpg" class="img-responsive" alt="Image">
+                    </div>
+                    
+                    <!-- only for mobile view E...-->
+                    
+                    <div class="row-p">
+                        <p><strong>EXCELLENCE– </strong>At Centum, we strive for Excellence in all that we do however big or small that task may be, and are never content with being the second best.</p>
+                    </div> 
+                    
+                    <div class="row-img-one-v">
+                        <img src="cr.jpg" class="img-responsive" alt="Image">
+                    </div>
+                    
+                </div>   
+
+                      <div class="rows">
+                    <div class="row-img-v">
+                        <img src="cr1.jpg" class="img-responsive" alt="Image">
+                    </div>
+
+                    <div class="row-p">
+                        <p><strong>SOCIAL RESPONSIBILITY– </strong>As a responsible corporate citizen Centum endeavors to have a positive impact on the greater society that we serve. Social responsibility is intertwined in our self belief and work ethics.</p>
+                    </div> 
+                </div> 
+                
+                 
+                
+            </div>
+              <!-- Left side E...-->
+            <!-- Right side S...-->            
+            
+            <div class="col-md-3">
                 <div class="inner-right-bar">                
                     <section class="inner-right-heading">
-                        <h1><b>ABOUT US</b></h1>  
+                        <h1>About Us</h1>  
                     </section>
                    <ul>
-                       <a href="our-values.html"> <li class="hvr-sweep-to-right"> <b>Our Values</b></li></a>
-                       <!-- <a href="our-values.html"> <li class="hvr-sweep-to-right bar-active">Our Values</li></a> -->
-                       <a href="#"> <li class="hvr-sweep-to-right"><b>Board of Directors</b></li></a>
-                       <a href="#"> <li class="hvr-sweep-to-right"><b>Management</b></li></a>
-                       <!-- <a href="awards.html"> <li class="hvr-sweep-to-right">Awards & Certifications</li></a> -->
+                       <a href="#"> <li class="hvr-sweep-to-right">Group Profile</li></a>
+                       <a href="#"> <li class="hvr-sweep-to-right bar-active">Our Values</li></a>
+                       <a href="#"> <li class="hvr-sweep-to-right">Board of Directors</li></a>
+                       <a href="#"> <li class="hvr-sweep-to-right">Management</li></a>
+                       <a href="#"> <li class="hvr-sweep-to-right">Awards & Certifications</li></a>
                     </ul>  
+                    
+                
+                    
+                    
                 </div>
             </div>
 
 <!-- Right side E...-->         
+        </div>      
+
+          
+
+       
            
 
 
 
 
 
-<!-- <!-- <!-- <div id="Aboutus" class="container text-center">
-<span class="Aboutus">
- <h3><b>ABOUT US</b></b></h3>
-</span>
- 
-</span class="aboutus-content">
-  <!-- <p><em>We love music!</em></p> -->
- <!--  <p>ETRONICS ENGINEERS LLP is a Jalpaiguri based company working towards excellence in the Accounting space, and believe in pursuing business through innovation and technology. Our team comes with several years of industry experience, and comprise of a highly motivated set of specialists.</p>
-  <br>
- </span>
-</div> -->
 
-<!-- Container (what we do Section)
-<div id="What-we-do" class="bg-1">
-  <div class="container">
-    <h3 class="What-we-do text-center"><b>WHAT WE DO</b></h3>
-    <p class="text-center">ETRONICS ENGINEERS LLP is involved in OTHER BUSINESS ACTIVITIES</p>
-    
-  </div>
-<!-- Container (Horking hours) -->
- <!--  <div id="Working-hours" class="bg-2">
-    <h3 class="text-center"> <b>WORKING HOURS</b> </h3>
-    <p class="text-center">ETRONICS ENGINEERS LLP is involved in OTHER BUSINESS ACTIVITIES</p>
-    <br>
-  </div> 
- -->
   
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-        </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-            </div>
-            <div class="form-group">
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+  
 <!-- Container (Contact Section) -->
-<div id="contact" class="container">
-  <h3 class="text-center"> <b>CONTACT</b></h3>
+<!-- <div id="contact" class="container"> -->
+  <!-- <h3 class="text-center"> <b>CONTACT</b></h3>
  
 
   <div class="container-contactlogo">
@@ -785,26 +954,11 @@ b, strong {
 <p>Email: etronics.engrs@gmail.com</p> 
 </div>
 
-</div> 
+</div>  -->
 
 
-
- 
-
-
-<!-- <div class="row">
-<div class="col-xs-12 col-sm-12 col-md-12  col-lg-8"> -->
-<!-- Add Google Maps -->
 <div id="googleMap"></div>
-<!-- </div>
-</div>
- -->
- <!--  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASt-duay0qQ9AaMOK2YH1i9tkTZPeAYxc&callback=myMap"
-  type="text/javascript"></script> -->
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+
 <div id="footer-bg">
             <div class="container">
                 <div class="col-xs-12 col-sm-12 col-md-2    col-lg-2  ">

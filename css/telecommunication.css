@@ -243,10 +243,10 @@
 }
 
   footer {
-  background-color:rgb(66,64,149 ); 
+     background-color: rgb(7, 7, 19);
       color: #f5f5f5 !important;
       padding: 10px;
-opacity: 0.7;
+
      
   }
   .footer a {
@@ -509,8 +509,7 @@ ul {
 #footer-bg{
       padding: 0px 48px;
    /* background-color: #969090;*/
-   background-color: rgb(197, 194, 234);
-    opacity: 0.9;
+  background-color: rgb(121, 121, 121);
       padding-left: 80px!important;
     padding-right: 120px!important;
 }

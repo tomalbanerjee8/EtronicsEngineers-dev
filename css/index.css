@@ -14,9 +14,11 @@ body {
    .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-      /*background-color:rgb(253,253,253);*/
-      background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-      border: 0;
+    background-color:rgb(197, 194, 234);/*#c1c1c1;*/
+    border-bottom-color: rgb(66,62,149)!important;
+    border-bottom-style: solid;
+    border-bottom-width: 4px!important;
+      
       font-size: 16px !important;
       letter-spacing: 1px;
       
@@ -434,6 +436,10 @@ element.style {
     top: 5px;
 }
 
+b, strong {
+    font-weight: 700;
+   letter-spacing: initial !important;
+}
 /*.like-container{
 padding: 80px 120px;
   }

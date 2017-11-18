@@ -16,7 +16,9 @@
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
       background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-      border: 0;
+      border-bottom-color: rgb(66,62,149)!important;
+    border-bottom-style: solid;
+    border-bottom-width: 4px!important;
       font-size: 16px !important;
       letter-spacing: 1px;
       opacity: 1.0;
@@ -147,6 +149,8 @@
 .breadcrumbs{
       background-color: #0a0a6b;
     padding-left: 72px;
+         opacity: 0.8;
+
 }
   
   
@@ -436,11 +440,7 @@ element.style {
     top: 5px;
 }
 
-.breadcrumbs {
-    background-color:rgb(197, 194, 234);
-    opacity: 0.7
-    padding-left: 72px;
-}
+
 
 a{
 color: white;

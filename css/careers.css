@@ -346,7 +346,7 @@ h1{
     font-family: inherit;
     font-weight: 500;
     line-height: 4.1;
-    color: black!important;
+    color: #fbfbfb;
 }
 
 .hero h1 {
@@ -458,10 +458,10 @@ element.style {
 }
 
 
-/*a{
+a{
 color: white;
 
-}*/
+}
 a:hover {
     color: rgb(255,244,1);
      text-decoration: none !important;
@@ -487,7 +487,7 @@ a:hover {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: black;
+    color: white;
      letter-spacing: 6px;
     font-size: 23px;
 }
@@ -534,7 +534,7 @@ ul {
     font-family: inherit;
     font-weight: 500;
     line-height: 2.1; 
-    font-size: 21px;
+    font-size: 18px;
     font: :sans-serif!important  ;
 }
 
@@ -550,6 +550,7 @@ text-decoration: none !important;
 
 a:focus, a:hover {
    color:  rgb(255,244,1);
+   text-decoration: none;
 }
 
 @media only screen and (max-width: 360px ) {
@@ -954,7 +955,7 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+color: #aba7a7;
     background-color: #fff;
 }
 .fade {
@@ -1230,10 +1231,10 @@ position: relative;
     text-transform: uppercase;
 }
 
-.mainbody-investor .col-md-9 {
+/*.mainbody-investor .col-md-9 {
     border-right: 1px dashed #c8c8c8 !important;
 }
-
+*/
 .mainbody-investor .row {
     display: block;
     margin-left: 0px;
@@ -1273,8 +1274,9 @@ position: relative;
     font-weight: lighter;
     line-height: 26px;
     /* margin: 10px 0 0 0; */
-    /* display: inline; */
+     display: inline; 
     text-align: justify;
+    color: #777!important;
 }
 
 .contacts p {
@@ -1304,11 +1306,9 @@ position: relative;
     font-size: 16px;
     font-weight: lighter;
     line-height: 26px;
-    /* margin: 10px 0 0 0; */
-    /* display: inline; */
-
-     :color: #777!important;
+    margin: 10px 0 0 0;      display: inline; 
     text-align: justify;
+    color:black;
 }
 
 .contacts p {
@@ -1336,8 +1336,8 @@ h1 {
     font-family: inherit!important;
     font-weight: 500!important;
     line-height: 1.1!important;
-    color: black!important;
-    letter-spacing: 1px!important;
+    color: white!important;
+    letter-spacing: 6px!important;
     font-size: 23px!important;
 }
 
@@ -1355,11 +1355,11 @@ h1 {
 */
 .inner-left-heading h1 {
     font-size: 29px!important;
-    display: inline-block!important;
-    
-    padding-left: 66px!important;
+   display: inline-block!important;
+    color: black!important;
+    /*padding-left: 66px!important;
     text-transform: uppercase!important;
-    line-height: 0px!important;
+    line-height: 0px!important;*/
     font-weight: 300!important;
     letter-spacing: 0px!important;
 }
@@ -1480,65 +1480,24 @@ input, select, textarea {
     margin-right: 1%;
 }
   }
-/*
-  .inner-sub-heading {
-    display: block;
-    margin: 25px 0px 5px 0;
-    height: 26px;
-    border-left: 3px solid #29599c;
-}
-.inner-sub-heading h1 {
-    font-size: 18px;
-    display: inline-block;
-    line-height: 30px;
-    font-weight: 400;
-    padding-left: 10px;
-    text-transform: uppercase;
-     color: black!important;
-}
 
-.mainbody-investor p {
-    font-size: 16px;
-    font-weight: lighter;
-    line-height: 26px;
-color:#777!important;
-    /* margin: 10px 0 0 0; */
-    /* display: inline; */
- /*   text-align: justify;
-}
 
-p {
-    margin: 0;
-    text-decoration: none;
+/*a {
+    color: #0a0a0a;
 }
+*/
 
-.careers .ab-line {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px !important;
-    margin-bottom: -10px !important;
-    color: #000;
-    border-bottom: 1px solid #eaeaea;
-}
-
-.inner-sub-heading {
-    display: block;
-    margin: 25px 0px 5px 0;
-    height: 26px;
-    border-left: 3px solid #29599c;
-}
-
-.careers li {
-    position: relative;
-    padding-left: 25px !important;
-}
-
-.versp {
-    padding-bottom: 8px;
+.link{
+  color: black;
 }
 
 
-a {
-    color: #777!important;
-}*/
+@media(max-width: 998px)
+{
+.col-md-3 {
+   
+    left: 20px;
+    top: 0px;
+}
+
+}

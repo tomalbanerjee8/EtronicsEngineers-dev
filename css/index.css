@@ -14,13 +14,13 @@ body {
    .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-    background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-    border-bottom-color: rgb(66,62,149)!important;
+    background-color:rgb(66,62,149);/*#c1c1c1;*/
+    border-bottom-color: #d69f37!important;
     border-bottom-style: solid;
-    border-bottom-width: 4px!important;
+    border-bottom-width: 3px!important;
       
       font-size: 16px !important;
-      letter-spacing: 1px;
+      /*letter-spacing: 1px;*/
       
   }
   .navbar-brand {
@@ -49,7 +49,7 @@ body {
      color: #fff !important;
   }
   .navbar-nav li a:hover {
-      color:  rgb(255,244,1) !important;
+      color: #FFBD4A !important;
   }
   .navbar-nav li.active a {
       color: #fff !important;
@@ -217,16 +217,16 @@ body {
   }  
  
   .open .dropdown-toggle {
-      color: white!important;
-      background-color: rgb(66,62,149) !important;
+      color: black!important;
+      /*background-color: rgb(66,62,149) !important;*/
   }
   .dropdown-menu li a {
-    background-color:rgb(197, 194, 234); 
+    background-color:rgb(66,62,149); 
      /* color:  white !important;*/
   }
   .dropdown-menu li a:hover {
       background-color: rgb(66,62,149)!important;
-      color:rgb(255,244,1) !important;
+     /* color:rgb(255,244,1) !important;*/
   }
 
   .glyphicon {
@@ -235,7 +235,7 @@ body {
 }
 
   .glyphicon:hover {
-      color: rgb(255,244,1) !important;
+      color: #FFBD4A !important;
 
 }
 
@@ -345,7 +345,7 @@ h1{
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgb(249, 11, 11);
+   /* text-shadow: 1px 1px 0 rgb(249, 11, 11);*/
     -webkit-transform: 
 
 }
@@ -429,7 +429,7 @@ h1{
     margin: 14px 0 30px 0;
     letter-spacing: 5px;
     font-size: 27px;
-    color: #fbff00;
+    color: #FFBD4A;
 }
 
 element.style {

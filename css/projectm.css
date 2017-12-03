@@ -15,13 +15,13 @@
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
-      background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-      border-bottom-color: rgb(66,62,149)!important;
+     background-color:rgb(66,62,149);/*#c1c1c1;*/
+    border-bottom-color: #d69f37!important;
     border-bottom-style: solid;
-    border-bottom-width: 4px!important;
+    border-bottom-width: 3px!important;
       font-size: 16px !important;
-      letter-spacing: 1px;
-      opacity: 1.0;
+      /*letter-spacing: 1px;*/
+      
   }
   .navbar-brand {
     float: left;

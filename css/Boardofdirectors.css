@@ -15,13 +15,13 @@ body {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
-      background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-       border-bottom-color: rgb(66,62,149)!important;
+     background-color:rgb(66,62,149);/*#c1c1c1;*/
+    border-bottom-color: #d69f37!important;
     border-bottom-style: solid;
-    border-bottom-width: 4px!important;
+    border-bottom-width: 3px!important;
       font-size: 16px !important;
-      letter-spacing: 1px;
-      opacity: 1.0;
+      /*letter-spacing: 1px;*/
+      
   }
   .navbar-brand {
     float: left;
@@ -50,11 +50,11 @@ body {
   }
   .navbar-nav li a:hover {
 
-      color: rgb(255,244,1) !important;
+      color: #ffbd4a !important;
   }
   .navbar-nav li.active a {
       color: #fff !important;
-      background-color: rgb(66,62,149) !important; 
+    /*  background-color: rgb(66,62,149) !important; */
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -220,16 +220,16 @@ body {
   }  
  
   .open .dropdown-toggle {
-      color: white!important;
-      background-color: rgb(66,62,149) !important;
+      color: black!important;
+    /*  background-color: rgb(66,62,149) !important;*/
   }
   .dropdown-menu li a {
-    background-color:rgb(197, 194, 234); 
-      color:  white !important;
+    background-color:rgb(66, 62, 149); 
+     /* color:  white !important;*/
   }
   .dropdown-menu li a:hover {
       background-color: rgb(66,62,149)!important;
-      color: rgb(255,244,1)!important;
+      /*color: rgb(255,244,1)!important;*/
   }
 
   .glyphicon {
@@ -238,7 +238,7 @@ body {
 }
 
   .glyphicon:hover {
-      color: rgb(255,244,1) !important;
+       color: #FFBD4A !important;
 
 }
 

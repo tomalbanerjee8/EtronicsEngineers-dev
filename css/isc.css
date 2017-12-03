@@ -15,8 +15,8 @@
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
-      background-color:rgb(197, 194, 234);/*#c1c1c1;*/
-       border-bottom-color: rgb(66,62,149)!important;
+     background-color:rgb(66,62,149);/*#c1c1c1;*/
+    border-bottom-color: #d69f37!important;
     border-bottom-style: solid;
     border-bottom-width: 4px!important;
       font-size: 16px !important;
@@ -238,7 +238,7 @@
 }
 
   .glyphicon:hover {
-      color: rgb(255,244,1) !important;
+      color: #ffbd4a!important;
 
 }
 

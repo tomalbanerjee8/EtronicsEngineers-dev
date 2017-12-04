@@ -36,21 +36,23 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: rgb(66,62,149) !important;
+      color: #555!important;
+    background-color: #e7e7e7!important;
 }
+
 .navbar li a, .navbar .navbar-brand {
     color: rgb(255, 250, 250) !important;
     font-size: 16px
 }
 
-  .navbar-header a:hover{
-     color: #fff !important;
-  }
-  .navbar-nav li a:hover {
+
+  /*.navbar-header a:hover{
+     color: #FFBD4A !important;
+  }*/
+ /* .navbar-nav li a:hover {
 
        color: #FFBD4A !important;
-  }
+  }*/
   .navbar-nav li.active a {
       color: #fff !important;
       background-color: rgb(66,62,149) !important; 
@@ -216,10 +218,38 @@
       
     
   }  
+
+  .active>a
+  {
+        color: #555!important;
+            background-color: rgb(66,62,149)!important;
+  }
+
+  .active:hover
+  {
+    color: #FFBD4A!important;
+  }
+
+  .dropdown :hover{
+    color: #FFBD4A!important;
+  }
+
+  .open>.dropdown-toggle :hover
+  {
+    color: #FFBD4A!important;
+  }
+
+  .dropdown-toggle: hover{
+    color: #FFBD4A!important;
+  }
+
+  b:hover{
+    color: #FFBD4A!important;
+  }
  
   .open .dropdown-toggle {
-      color: white!important;
-      background-color: rgb(66,62,149) !important;
+      color: black!important;
+      /*background-color: rgb(66,62,149) !important;*/
   }
   .dropdown-menu li a {
     background-color:rgb(197, 194, 234); 
@@ -227,7 +257,7 @@
   }
   .dropdown-menu li a:hover {
       background-color: rgb(66,62,149)!important;
-      color: rgb(255,244,1)!important;
+      color: #FFBD4A!important;
   }
 
   .glyphicon {
@@ -441,11 +471,11 @@ element.style {
 
 
 a{
-color: white;
+color: white!important;
 
 }
 a:hover {
-    color: rgb(255,244,1);
+   /* color: #FFBD4A;*/
      text-decoration: none !important;
 }
 
@@ -490,7 +520,7 @@ a:hover {
 .hvr-sweep-to-right:hover{
   color: rgb(255,244,1)!important;
 }
-*/
+
 ul {
     margin-top: 0;
     margin-bottom: 25px;
@@ -529,9 +559,9 @@ color: white;
 text-decoration: none !important;
 }
 
-a:focus, a:hover {
-   color:  rgb(255,244,1);
-}
+/*a:focus, a:hover {
+   color: #FFBD4A!important;
+}*/
 
 @media only screen and (max-width: 360px ) {
  .fa {
@@ -784,17 +814,17 @@ ul {
     padding: 30px 8%;
 }
 
- .open .dropdown-toggle {
+.open .dropdown-toggle {
     
-      background-color: rgb(66,62,149) !important;
-      color: black!important;
-      /*background-color: rgb(66,62,149) !important;*/
-  }
+    background-color: rgb(66,62,149) !important;
+    color: black!important;
+    background-color: #e7e7e7 !important;
+}
 
     .dropdown-menu li a {
     
     background-color:rgb(66,62,149); 
-     /* color:  white !important;*/
+     color:  white !important;
   }
 
    .dropdown-menu li a:hover {
@@ -807,3 +837,11 @@ ul {
             color: #FFBD4A !important;
 
 }
+
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: rgb(255, 250, 250) !important;
+    font-size: 16px;
+}
+

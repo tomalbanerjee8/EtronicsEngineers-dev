@@ -15,13 +15,14 @@
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
       /*background-color:rgb(253,253,253);*/
-      background-color:rgb(66,62,149);/*#c1c1c1;*/
+       background-color:rgb(66,62,149);/*#c1c1c1;*/
     border-bottom-color: #d69f37!important;
     border-bottom-style: solid;
     border-bottom-width: 3px!important;
-      font-size: 16px !important;
-     /* letter-spacing: 1px;*/
+            font-size: 16px !important;
+      /*letter-spacing: 1px;*/
       
+  }
   .navbar-brand {
     float: left;
     height: 50px;
@@ -36,26 +37,24 @@
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-      color: #555!important;
-    background-color: #e7e7e7!important;
+    color: #555;
+    background-color: rgb(66,62,149) !important;
 }
-
 .navbar li a, .navbar .navbar-brand {
     color: rgb(255, 250, 250) !important;
     font-size: 16px
 }
 
+  .navbar-header a:hover{
+     color: #fff !important;
+  }
+  .navbar-nav li a:hover {
 
-  /*.navbar-header a:hover{
-     color: #FFBD4A !important;
-  }*/
- /* .navbar-nav li a:hover {
-
-       color: #FFBD4A !important;
-  }*/
+        color: #FFBD4A !important;
+  }
   .navbar-nav li.active a {
       color: #fff !important;
-      background-color: rgb(66,62,149) !important; 
+     /* background-color: rgb(66,62,149) !important; */
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
@@ -152,6 +151,7 @@
     padding-left: 72px;
          opacity: 0.8;
 }
+}
   
   
   .bg-1 {
@@ -218,46 +218,18 @@
       
     
   }  
-
-  .active>a
-  {
-        color: #555!important;
-            background-color: rgb(66,62,149)!important;
-  }
-
-  .active:hover
-  {
-    color: #FFBD4A!important;
-  }
-
-  .dropdown :hover{
-    color: #FFBD4A!important;
-  }
-
-  .open>.dropdown-toggle :hover
-  {
-    color: #FFBD4A!important;
-  }
-
-  .dropdown-toggle: hover{
-    color: #FFBD4A!important;
-  }
-
-  b:hover{
-    color: #FFBD4A!important;
-  }
  
   .open .dropdown-toggle {
       color: black!important;
       /*background-color: rgb(66,62,149) !important;*/
   }
   .dropdown-menu li a {
-    background-color:rgb(197, 194, 234); 
-      color:  white !important;
+  background-color:rgb(66,62,149);
+    /*  color:  white !important;*/
   }
   .dropdown-menu li a:hover {
       background-color: rgb(66,62,149)!important;
-      color: #FFBD4A!important;
+     /* color: rgb(255,244,1)!important;*/
   }
 
   .glyphicon {
@@ -266,12 +238,12 @@
 }
 
   .glyphicon:hover {
-      color: rgb(255,244,1) !important;
+      color: #FFBD4A !important;
 
 }
 
   footer {
-      background-color: rgb(7, 7, 19);
+     background-color: rgb(7, 7, 19);
       color: #f5f5f5 !important;
       padding: 10px;
 
@@ -471,11 +443,11 @@ element.style {
 
 
 a{
-color: white!important;
+color: white;
 
 }
 a:hover {
-   /* color: #FFBD4A;*/
+    color: rgb(255,244,1);
      text-decoration: none !important;
 }
 
@@ -520,7 +492,7 @@ a:hover {
 .hvr-sweep-to-right:hover{
   color: rgb(255,244,1)!important;
 }
-
+*/
 ul {
     margin-top: 0;
     margin-bottom: 25px;
@@ -537,7 +509,7 @@ ul {
 #footer-bg{
       padding: 0px 48px;
    /* background-color: #969090;*/
-background-color: rgb(121, 121, 121);
+  background-color: rgb(121, 121, 121);
       padding-left: 80px!important;
     padding-right: 120px!important;
 }
@@ -559,9 +531,9 @@ color: white;
 text-decoration: none !important;
 }
 
-/*a:focus, a:hover {
-   color: #FFBD4A!important;
-}*/
+a:focus, a:hover {
+   color:  rgb(255,244,1);
+}
 
 @media only screen and (max-width: 360px ) {
  .fa {
@@ -813,35 +785,3 @@ ul {
 .our-scetors-img {
     padding: 30px 8%;
 }
-
-.open .dropdown-toggle {
-    
-    background-color: rgb(66,62,149) !important;
-    color: black!important;
-    background-color: #e7e7e7 !important;
-}
-
-    .dropdown-menu li a {
-    
-    background-color:rgb(66,62,149); 
-     color:  white !important;
-  }
-
-   .dropdown-menu li a:hover {
-      background-color: rgb(66,62,149)!important;
-     
-     /* color:rgb(255,244,1) !important;*/
-  }
-
-  .glyphicon:hover {
-            color: #FFBD4A !important;
-
-}
-
-
-
-.navbar li a, .navbar .navbar-brand {
-    color: rgb(255, 250, 250) !important;
-    font-size: 16px;
-}
-

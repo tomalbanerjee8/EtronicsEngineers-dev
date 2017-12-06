@@ -598,7 +598,8 @@ b, strong {
 
 .rows {
     display: flex;
-    margin: 5px 0px;
+    margin: 20px 0px;
+
 }
 .row-img-two-v {
     display: none;
@@ -629,12 +630,12 @@ b, strong {
 }
 
 .row-img-v{
-  width: 12%;
+  width: 20%;
 }
 
 .row-img-one-v {
-    width: 12%;
-    margin: 0px 20px 0 10px;
+    width: 20%;
+    margin: 0px 20px 0 50px;
 }
 
  .img-responsive{
@@ -750,4 +751,8 @@ ul {
 }
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
     color: white;
+}
+
+.w3-circle{
+      border-radius: 50%;
 }

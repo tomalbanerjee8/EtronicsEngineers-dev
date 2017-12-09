@@ -1,8 +1,6 @@
 body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
-        font-size: 14px!important;
-    line-height: 1.42857143!important;
      
   }
   h1,.w3-wide {font-family: "Montserrat", sans-serif;}
@@ -13,10 +11,6 @@ body {
       color: #111;
 
   }
-
-  .dropdown-menu>li>a{
-  font-size: 14px!important;
-}
 
    .navbar {
       font-family: Montserrat, sans-serif;
@@ -474,7 +468,7 @@ padding: 80px 120px;
 }
 
 .link1{
-color: #d2d0d0;
+color: black;
 text-decoration: none !important;
 
 }

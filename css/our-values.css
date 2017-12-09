@@ -1,8 +1,6 @@
  body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
-       font-size: 14px!important;
-    line-height: 1.42857143!important;
      
   }
   h1,.w3-wide {font-family: "Montserrat", sans-serif;}
@@ -12,9 +10,6 @@
       font-size: 20px;
       color: #111;
   }
-  .dropdown-menu>li>a{
-  font-size: 14px!important;
-}
 
    .navbar {
       font-family: Montserrat, sans-serif;
@@ -490,8 +485,6 @@ a:hover {
     /*background-color: rgb(197, 194, 234);*/
     left: 20px;
     top: 28px;
-    box-shadow: black 1px 1px 20px 2px!important;
-}
 }
 
 .hvr-sweep-to-right{
@@ -499,7 +492,7 @@ a:hover {
 }
 
 .hvr-sweep-to-right:hover{
-  color: #ffbd4a!important;
+  color: rgb(255,244,1)!important;
 }
 */
 ul {
@@ -534,7 +527,7 @@ ul {
 }
 
 .link1{
-color: #d2d0d0;
+color: black;
 text-decoration: none !important;
 
 }
@@ -691,13 +684,13 @@ b, strong {
 {
 .mainbody-about .col-md-9 {
     
-    border-bottom: 1px dashed #777 !important;
+    border-bottom: 2px dashed black !important;
 }
 
 .col-md-9 {
     padding-top: 20px;
     padding-bottom: 20px;
-    border-right: 1px dashed white!important; 
+    border-right: 1px dashed #777; 
 }
 }
   
@@ -707,15 +700,12 @@ b, strong {
 }
 .inner-right-bar {
     margin: auto;
-    border-left-color: #827f7f;
-    border-left-style: double;
 }
 .inner-right-heading {
     display: block;
     height: 26px;
     margin: 19px 0px;
-    /*border-left: 3px solid #c3c3c3;*/
-     box-shadow: black 0px 2px 8px 2px;
+    border-left: 3px solid #c3c3c3;
 }
 .inner-right-heading h1 {
     font-size: 24px;
@@ -730,8 +720,8 @@ b, strong {
     display: block;
     height: 39px;
     margin: 10px 0px;
-   /* border-left: 3px solid #059be2;
-}*/}
+    border-left: 3px solid #059be2;
+}
 
 ul {
     margin: 0;
@@ -747,11 +737,11 @@ ul {
     font-size: 16px;
     text-decoration: none;
     font-weight: 300;
-    color: #ffffff;
+    color: #370bbb;
     padding: 10px 10px;
     width: 100%;
-    background: rgb(121, 121, 121);
-    /* border-left: 5px solid #7dc24d; */
+    background: #f3f3f3;
+    border-left: 5px solid #7dc24d;
     border-bottom: 3px solid #fff;
 }
 

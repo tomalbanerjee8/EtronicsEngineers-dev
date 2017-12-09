@@ -1,7 +1,7 @@
 body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
-        font-size: 14px!important;
+        font-size: 13px!important;
     line-height: 1.42857143!important;
      
   }
@@ -461,7 +461,7 @@ padding: 80px 120px;
       padding: 0px 48px;
    /* background-color: #969090;*/
  background-color: rgb(121, 121, 121)!important;
- font-size: 14px!important;
+ /*font-size: 14px!important;*/
  line-height: 1.42857143!important;
     
 }

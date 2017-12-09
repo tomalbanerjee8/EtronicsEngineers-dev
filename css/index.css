@@ -442,6 +442,7 @@ element.style {
 b, strong {
     font-weight: 700;
    letter-spacing: initial !important;
+
 }
 /*.like-container{
 padding: 80px 120px;
@@ -473,7 +474,7 @@ text-decoration: none !important;
 }
 
 a:focus, a:hover {
-   color:  rgb(255,244,1);
+   color:  #FFBD4A;
 }
 
 .fa {

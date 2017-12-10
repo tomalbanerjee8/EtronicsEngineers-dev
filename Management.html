@@ -367,7 +367,7 @@
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="GO TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>© 2016. Etronics Engineers. All Rights Reserved </p> 
+  <p>© 2017. Etronics Engineers LLP. All Rights Reserved </p> 
 </footer>
 
 <script>
@@ -445,7 +445,24 @@ $(document).ready(function(){
 }
 
 </script>
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        function CloseNav() {
+            $(".navbar-collapse").stop().css({ 'height': '1px' }).removeClass('in').addClass("collapse");
+            $(".navbar-toggle").stop().removeClass('collapsed');
+        }
 
+        $('html').click(function (event) {
+            var clickover = $(event.target);
+            var _opened = $(".navbar-toggle").hasClass("navbar-toggle");
+            if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+                CloseNav();
+            }
+
+        });
+    });
+
+ </script> -->
 
 </body>
 </html>

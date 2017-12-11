@@ -1046,7 +1046,7 @@ h3, h4 {
 }
 
 .w3-opacity, .w3-hover-opacity:hover {
-    opacity: 0.60;
+   /* opacity: 0.60;*/
 }
 
 .w3-section, .w3-code {
@@ -1473,3 +1473,8 @@ padding-left: 15px!important;
 .w3-xxlargeaaa {
     font-size: 36px!important;
 }
+
+#work{
+margin-bottom: 80px;
+}
+

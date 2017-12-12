@@ -810,7 +810,7 @@ ul {
 
  @media only screen and (max-width: 390px) and (min-width: 266px){
   .name{
-        height: 70%!important;
+       /* height: 70%!important;*/
     display: inline-block!important;
   }
 
@@ -833,7 +833,7 @@ ul {
 
 @media only screen and (max-width: 770px) and (min-width: 250px){
  .name{
-   height: 65%!important;
+   /*height: 65%!important;*/
     display: inline-block!important;
   }
 .navbar-default .navbar-toggle {
@@ -922,5 +922,19 @@ ul {
 }
 .link{
   text-align:left!important;
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 266px){
+
+mainbody-about p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 26px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #616161;
 }
 }

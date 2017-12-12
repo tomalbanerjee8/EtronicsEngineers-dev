@@ -205,7 +205,7 @@ body {
       color: rgb(255,244,1)!important;
   }
   .modal-header, h4, .close {
-      background-color: #333;
+      background-color: #777;
       color: #fff !important;
       text-align: center;
       font-size: 30px;
@@ -1299,14 +1299,16 @@ position: relative;
 }
 
 .contacts p {
-    font-size: 13px;
-    line-height: 20px;
-    padding: 2px 0px;
+    font-size: 15px!important;
+    line-height: 25px!important;
+    padding: 10px 0px;
+     font-family: "Raleway", sans-serif;
 }
 
 .add {
     position: relative;
     padding-left: 25px !important;
+     font-family: "Raleway", sans-serif;
 }
 
 
@@ -1576,4 +1578,19 @@ input, select, textarea {
 .link{
   text-align:left!important;
 }
+}
+
+@media only screen and (max-width: 410px) and (min-width: 266px){
+
+.inner-left-heading h1 {
+    font-size: 17px!important;
+    display: inline-block!important;
+    color: #777!important;
+    padding-left: 40px!important;
+    text-transform: uppercase!important;
+    line-height: 0px!important;
+    font-weight: 600!important;
+    letter-spacing: 0px!important;
+}
+
 }

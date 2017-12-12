@@ -877,3 +877,17 @@ ul {
   text-align:left!important;
 }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 266px){
+.mainbody-about p {
+   font-size: 16px;
+    font-weight: lighter;
+    line-height: 26px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #616161!important;
+}
+
+}

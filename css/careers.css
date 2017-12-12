@@ -1607,3 +1607,18 @@ input, select, textarea {
   text-align:left!important;
 }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 266px){
+.mainbody-about p {
+       font-size: 16px;
+    font-weight: lighter;
+    line-height: 26px;
+    margin: 10px 0 0 0;
+    display: inline;
+    text-align: justify;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    color: #616161;
+}
+
+}

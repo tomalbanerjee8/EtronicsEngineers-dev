@@ -1604,6 +1604,6 @@ input, select, textarea {
     margin-bottom: 40px;
 }
 .link{
-  text-align: -webkit-left!important;
+  text-align:left!important;
 }
 }

@@ -1615,10 +1615,22 @@ input, select, textarea {
     line-height: 26px;
     margin: 10px 0 0 0;
     display: inline;
-    text-align: justify;
+    text-align: justify!important;
     color: black;
     font-family: "Raleway", sans-serif;
     color: #616161;
+   /* font-weight: 600!important;*/
+
+}
+
+}
+
+@media only screen and (max-width: 600px) and (min-width: 266px){
+
+.breadcrumbs {
+    background-color: #0a0a6b;
+    padding-left: 15px;
+    opacity: 0.8;
 }
 
 }

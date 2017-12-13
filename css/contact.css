@@ -702,6 +702,9 @@ b, strong {
 .mainbody-about .col-md-9 {
     
     border-bottom: 1px dashed #777 !important;
+
+    border-right: 1px dashed #ffffff !important;
+}
 }
 
 .col-md-9 {
@@ -1602,5 +1605,11 @@ input, select, textarea {
     padding-left: 15px;
     opacity: 0.8;
 }
+
+.contacts p {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 2px 0px;
+    color: #332d2d!important;
 
 }

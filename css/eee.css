@@ -509,7 +509,7 @@ ul {
   letter-spacing: 1.1px;
 }
 
-.name{
+.namea{
   color: #777;
     font-family: "Raleway", sans-serif;
     text-decoration: underline;
@@ -810,7 +810,7 @@ ul {
 
  @media only screen and (max-width: 390px) and (min-width: 266px){
   .name{
-       /* height: 70%!important;*/
+        height: 70%!important;
     display: inline-block!important;
   }
 
@@ -833,7 +833,7 @@ ul {
 
 @media only screen and (max-width: 770px) and (min-width: 250px){
  .name{
-   /*height: 65%!important;*/
+   height: 65%!important;
     display: inline-block!important;
   }
 .navbar-default .navbar-toggle {

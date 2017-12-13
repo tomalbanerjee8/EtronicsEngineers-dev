@@ -872,3 +872,9 @@ ul {
 }
 
 }
+
+@media only screen and (max-width: 768px) and (min-width: 266px){
+.row-img-v {
+    width: 16%;
+}
+}

@@ -1120,6 +1120,8 @@ h2 {
 
 .carousel {
     position: relative;
+    background-color: #f3f2f2;
+        box-shadow: black 0px 0px 10px 0px;
 }
 
 .carousel-indicators {
@@ -1183,6 +1185,7 @@ bootstrap.css:6282
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f4511e;
+    display: none;
 }
 
 .carousel-control.left {
@@ -1514,3 +1517,22 @@ margin-bottom: 80px;
 
 
 }
+
+
+@media only screen and (max-width: 910px) and (min-width: 599px){
+
+.w3-section {
+    padding-bottom: 60%;
+}
+/*#work {
+    margin-bottom: 0px;
+}
+*/
+  }
+
+
+/*  @media only screen and (max-width: 1090px) and (min-width: 680px){
+#work {
+    margin-bottom: 0px;
+}
+  }*/

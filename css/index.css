@@ -1185,8 +1185,7 @@ bootstrap.css:6282
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f4511e;
-    display: none;
-}
+   }
 
 .carousel-control.left {
     /*background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
@@ -1434,7 +1433,7 @@ padding: 60px 60px;
 @media only screen and (max-width: 1150px) and (min-width: 700px){
   .w3-container, .w3-panel {
    padding: 0.01em 16px;
-    margin-bottom: 60px;
+    margin-bottom: 115px!important;
 }
 }
 
@@ -1442,6 +1441,7 @@ padding: 60px 60px;
   .w3-container, .w3-panel {
    padding: 0.01em 16px;
     margin-bottom: 100px;
+    margin-bottom: 110px!important;
 
 }
 
@@ -1522,7 +1522,8 @@ margin-bottom: 80px;
 @media only screen and (max-width: 910px) and (min-width: 599px){
 
 .w3-section {
-    padding-bottom: 60%;
+    padding-bottom: 60%!important;
+
 }
 /*#work {
     margin-bottom: 0px;
@@ -1536,3 +1537,10 @@ margin-bottom: 80px;
     margin-bottom: 0px;
 }
   }*/
+
+
+ .carousel-control.righta, .carousel-control.lefta {
+    background-image: none;
+    color: #f4511e;
+    display: none;
+}

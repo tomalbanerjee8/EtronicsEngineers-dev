@@ -1440,7 +1440,6 @@ padding: 60px 60px;
 @media only screen and (max-width: 818px) and (min-width: 600px){
   .w3-container, .w3-panel {
    padding: 0.01em 16px;
-    margin-bottom: 100px;
     margin-bottom: 110px!important;
 
 }

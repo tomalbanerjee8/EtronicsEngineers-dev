@@ -913,11 +913,17 @@ ul {
     line-height: 1.1;
     color: #777!important;
     letter-spacing:initial !important;
-    font-size: 25px;
+    font-size: 22px;
 } 
 
 .subheading{
   font-size: 14px!important;
+}
+
+.actualschoollinks
+{
+  color: Black; 
+  text-decoration: none;
 }
 
 }

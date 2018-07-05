@@ -1,4 +1,4 @@
- body {
+  body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
       font-size: 13px!important;
@@ -900,6 +900,24 @@ ul {
     background-color: #0a0a6b;
     padding-left: 15px;
     opacity: 0.8;
+}
+
+
+
+}
+
+.headname {
+
+    font-family:  "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #777!important;
+    letter-spacing:initial !important;
+    font-size: 25px;
+} 
+
+.subheading{
+  font-size: 14px!important;
 }
 
 }
